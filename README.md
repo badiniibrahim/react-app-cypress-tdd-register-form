@@ -1,46 +1,88 @@
-# Getting Started with Create React App
+# TDD with react end-to-end tests with Cypress and component tests with Jest and React Testing Library.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The repository is dedicated to Test-Driven Development (TDD) with React 18 via Create React App. We'll implement end-to-end tests with Cypress and component tests with Jest and React Testing Library.
 
-## Available Scripts
+<h1 align="center">
+  SAWADOGO Badini Ibrahim
+</h1>
 
-In the project directory, you can run:
+[![GitHub badiniibrahim](https://img.shields.io/github/followers/badiniibrahim?label=follow&style=social)](https://github.com/badiniibrahim)
 
-### `npm start`
+[![Gmail Badge](https://img.shields.io/badge/-sawadogo.badiniibrahim@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=sawadogo.badiniibrahim@gmail.com)](mailto:sawadogo.badiniibrahim@gmail.com)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/badini-ibrahim-s-306b119b/)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## About this Repository
 
-### `npm test`
+![GitHub language count](https://img.shields.io/github/languages/count/badiniibrahim/react-app-cypress-tdd-register-form)
+![GitHub top language](https://img.shields.io/github/languages/top/badiniibrahim/react-app-cypress-tdd-register-form)
+![Github Repo Size](https://img.shields.io/github/repo-size/badiniibrahim/react-app-cypress-tdd-register-form)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Technologies
 
-### `npm run build`
+- React.js
+- Cypress end-to-end tests
+- Jest and React Testing Library.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 👨‍💻 Getting Started
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Prerequisites
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<details>
+  <summary><a href="https://github.com/nvm-sh/nvm">nvm</a></summary>
 
-### `npm run eject`
+```shell
+brew install nvm
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+</details>
+<details>
+  <summary><a href="https://nodejs.org/en/">Node.js</a></summary>
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```shell
+nvm install v17.4.0
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+</details>
+<details>
+  <summary><a href="https://yarnpkg.com/">Yarn</a></summary>
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```shell
+npm install --global yarn
+```
 
-## Learn More
+</details>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## :running: Run Locally
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Clone the project
+
+```bash
+  git clone https://github.com/badiniibrahim/react-app-cypress-tdd-register-form.git
+```
+
+## Installation
+
+```bash
+$ yarn install
+```
+
+### Testing
+
+#### Unit / Integration tests
+
+Launch the test runner
+
+```shell
+yarn test
+```
+
+Open cypress
+
+```shell
+yarn cypress
+```
+
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
